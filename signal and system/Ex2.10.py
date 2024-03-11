@@ -11,7 +11,6 @@ h = (n >= 0)
 
 # 使用NumPy的卷積函數
 y = np.convolve(x, h, mode="same")
-
 # 繪製原始信號和系統響應
 plt.subplot(3, 1, 1)
 plt.stem(n, x, label='Input Signal')
