@@ -8,7 +8,6 @@ x1 = (2**(n.astype(float))) * (n <= 0)
 x2 = (0.5**n.astype(float)) * (n >= 0)
 x =  x1 + x2
 h = (n >= 0)
-
 # 使用NumPy的卷積函數
 y = np.convolve(x, h, mode="same")
 # 繪製原始信號和系統響應
